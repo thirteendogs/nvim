@@ -1,6 +1,7 @@
 vim.cmd("let g:netrw_liststyle = 3")
 
 local opt = vim.opt
+local api = vim.api
 
 opt.relativenumber = true
 opt.number = true
@@ -26,3 +27,5 @@ opt.clipboard:append("unnamedplus")
 
 opt.splitright = true
 opt.splitbelow = true
+
+api.nvim_set_hl(0, "Visual", { bg = "#0000FF" })
