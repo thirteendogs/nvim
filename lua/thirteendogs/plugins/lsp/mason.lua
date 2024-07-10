@@ -36,6 +36,7 @@ return {
 				"emmet_ls",
 				"prismals",
 				"pyright",
+				"volar",
 			},
 		})
 		mason_tool_installer.setup({

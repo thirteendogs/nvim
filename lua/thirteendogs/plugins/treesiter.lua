@@ -28,6 +28,7 @@ return {
 				"tsx",
 				"yaml",
 				"html",
+				"scss",
 				"css",
 				"prisma",
 				"markdown",
@@ -42,6 +43,7 @@ return {
 				"query",
 				"vimdoc",
 				"c",
+				"vue",
 			},
 			incremental_selection = {
 				enable = true,
