@@ -28,4 +28,7 @@ opt.clipboard:append("unnamedplus")
 opt.splitright = true
 opt.splitbelow = true
 
+-- views can only be fully collapsed with the global statusline
+opt.laststatus = 3
+
 api.nvim_set_hl(0, "Visual", { bg = "#0000FF" })
